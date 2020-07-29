@@ -21,8 +21,7 @@ body{
 /***** header *****/
 
 #header {
-    width: 1305px;
-    margin: 50px auto;
+    margin: 50px;
 }
 
 ul {
@@ -30,7 +29,7 @@ ul {
 }
 
 li {
-    margin: auto;
+    margin: 0 auto;
     list-style: none;
 }
 
@@ -75,6 +74,105 @@ li {
 
 /***** hero *****/
 
-.promo {
-    width: 50%;
+#hero {
+}
+
+#hero ul:first-child {
+    display: flex;
+    justify-content: center;
+    padding-top: 53px;
+    padding-bottom: 103px;
+}
+
+h1 {
+    font-family: "Rubik-bold";
+    font-size: 50px;
+    line-height: 70px;
+}
+
+h6 {
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 30px;
+    color:#707682;
+}
+
+.button {
+    background: #F53838;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Rubik-bold";
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    padding: 17.5px 77.5px;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+}
+
+.button::before {
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(25px);
+    position: absolute;
+    height: 100%;
+    content: '';
+    top: 25px;
+    left: 20px;
+    right: 20px;
+    z-index: -1;
+}
+
+.img_girl {
+    margin-left: 0;
+}
+
+.list {
+    border-radius: 10px;
+    background: white;
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 1200px;
+}
+
+.list::before {
+    background: #EEEFF2;
+    filter: blur(25px);
+    position: absolute;
+    height: 100%;
+    content: '';
+    top: 25px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.list li {
+    border-right: 2px solid #EEEFF2;
+    padding: 0 165px;
+    display: flex;
+}
+
+.list li:last-child {
+    border: none;
+}
+
+.list img {
+    padding-right: 36.5px;
+}
+
+.list div:first-child {
+    font-family: 'Rubik-bold';
+    font-weight: bold;
+    color: #0B132A;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.list div:last-child {
+    font-family: 'Rubik';
+    font-size: 20px;
+    line-height: 30px;
+    color:#707682;
 }
