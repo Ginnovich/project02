@@ -13,75 +13,70 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
     font-family: "Rubik";
 }
 
 /***** header *****/
 
 #header {
-    margin: 50px;
-}
-
-ul {
+    margin: 50px auto;
     display: flex;
-}
-
-li {
-    margin: 0 auto;
-    list-style: none;
+    justify-content: center;
+    width: 1140px;
 }
 
 .logobox {
     display: flex;
+    justify-content: center;
     font-family: 'Rubik-bold';
+}
+
+nav {
+    margin: auto;
+}
+
+.sign {
+    font-family: 'Rubik-bold';
+    margin: auto 0;
 }
 
 .logobox div {
     font-size: 20px;
-    line-height: 25px;
     margin: auto 10px;
 }
 
+li {
+    list-style: none;
+}
+
 .nav a {
-    font-size: 16px;
-    line-height: 19px;
     color:#707682;
     text-decoration: none;
     margin: 0 25px;
 }
 
-
-.sign {
-    font-family: 'Rubik-bold';
-    font-size: 16px;
-    line-height: 19px;
+.sign a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
 }
 
-.sign :last-child {
+.sign a:last-child {
     border: 1px solid #F53855;
     padding: 13px 45px;
     border-radius: 50px;
     color: #F53855;
 }
 
-.sign a {
-    text-decoration: none;
-    margin: 20px;
-    color: black;
-}
 
 /***** hero *****/
 
-#hero {
-}
-
-#hero ul:first-child {
+.promo {
     display: flex;
-    justify-content: center;
-    padding-top: 53px;
-    padding-bottom: 103px;
+    justify-content: space-between;
+    padding: 50px 0 100px 0;
+    margin: auto;
+    width: 1140px;
 }
 
 h1 {
@@ -134,6 +129,8 @@ h6 {
     margin: 0 auto;
     height: 200px;
     width: 1200px;
+    display: flex;
+    align-items: center;
 }
 
 .list::before {
@@ -148,10 +145,17 @@ h6 {
     z-index: -1;
 }
 
+.list ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+
 .list li {
     border-right: 2px solid #EEEFF2;
-    padding: 0 165px;
     display: flex;
+    padding: 30px 124px;
 }
 
 .list li:last-child {
