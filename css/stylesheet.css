@@ -6,9 +6,16 @@
 }
 
 @font-face {
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-medium';
     src: url('../fonts/rubik-v9-cyrillic-500.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-bold';
+    src: url('../fonts/rubik-v9-latin-700.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -28,7 +35,7 @@ body{
 .logobox {
     display: flex;
     justify-content: center;
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-medium';
 }
 
 nav {
@@ -36,7 +43,7 @@ nav {
 }
 
 .sign {
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-medium';
     margin: auto 0;
 }
 
@@ -45,20 +52,28 @@ nav {
     margin: auto 10px;
 }
 
-li {
+nav ul {
+    display: flex;
+}
+
+nav li {
     list-style: none;
 }
 
-.nav a {
+nav li a {
     color:#707682;
     text-decoration: none;
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
 .sign a {
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 26px;
     color: black;
+}
+
+.sign a:first-child {
+    margin-left: 46px;
 }
 
 .sign a:last-child {
@@ -74,15 +89,18 @@ li {
 .promo {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0 100px 0;
+    padding: 23px 0 110px 0;
     margin: auto;
     width: 1140px;
 }
-
-h1 {
+strong {
     font-family: "Rubik-bold";
+}
+h1 {
+    font-family: "Rubik-medium";
     font-size: 50px;
     line-height: 70px;
+    margin-bottom: 0;
 }
 
 h6 {
@@ -90,20 +108,22 @@ h6 {
     font-size: 16px;
     line-height: 30px;
     color:#707682;
+    margin-top: 19px;
+    margin-bottom: 0;
 }
 
 .button {
     background: #F53838;
     border-radius: 10px;
     box-sizing: border-box;
-    font-family: "Rubik-bold";
+    font-family: "Rubik-medium";
     font-size: 16px;
     line-height: 25px;
     color: white;
-    padding: 17.5px 77.5px;
+    padding: 18px 80px;
     display: inline-block;
     position: relative;
-    margin-top: 30px;
+    margin-top: 51px;
 }
 
 .button::before {
@@ -119,7 +139,9 @@ h6 {
 }
 
 .img_girl {
-    margin-left: 0;
+    position: relative;
+    top: 12px;
+    left: 68px;
 }
 
 .list {
@@ -155,7 +177,7 @@ h6 {
 .list li {
     border-right: 2px solid #EEEFF2;
     display: flex;
-    padding: 30px 124px;
+    padding: 30px 115px;
 }
 
 .list li:last-child {
@@ -168,10 +190,10 @@ h6 {
 
 .list div:first-child {
     font-family: 'Rubik-bold';
-    font-weight: bold;
     color: #0B132A;
     font-size: 25px;
     line-height: 30px;
+    margin: 5px;
 }
 
 .list div:last-child {
@@ -179,4 +201,46 @@ h6 {
     font-size: 20px;
     line-height: 30px;
     color:#707682;
+}
+
+
+/***** advertising *****/
+
+
+#advertising {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.exploring {
+    padding-left: 172px;
+    padding-top: 22px;
+}
+
+h2 {
+    font-family: 'Rubik-medium';
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    margin-bottom: 0;
+}
+
+.exploring ul {
+    padding-left: 10px;
+}
+
+.exploring li {
+    font-size: 14px;
+    line-height: 30px;
+    color:#707682;
+    list-style: none;
+    padding: 4px 0;
+}
+
+.exploring li::before {
+    content: url(../img/check_mark.svg);
+    top: 7px;
+    right: 10px;
+    position: relative;
 }
