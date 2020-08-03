@@ -244,3 +244,95 @@ h2 {
     right: 10px;
     position: relative;
 }
+
+
+/***** plan *****/
+
+
+#plan {
+    background: #FBFBFB;
+}
+
+#plan > div:first-child {
+    margin: 0 auto;
+    width: 555px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#plan ul:first-child {
+    display: flex;
+    justify-content: space-between;
+    width: 1090px;
+    margin: auto;
+    padding: 0;
+}
+
+#plan .box {
+    background-image: url(../img/Standard.png);
+    background-repeat: no-repeat;
+    background-position: center 76px;
+    background-color: #ffffff;
+    width: 330px;
+    height: 760px;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 62px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;   
+}
+
+#plan .box:first-child {
+    background-image: url(../img/Free.png);
+}
+
+#plan .box:last-child {
+    background-image: url(../img/Premium.png);
+}
+
+h3 {
+    padding-top: 258px;
+    text-align: center;
+}
+
+#plan ul ul {
+    padding: 5px;
+    padding-left: 88px;
+    list-style-type: none;
+}
+
+#plan ul ul li {
+    font-family: 'Rubik';
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 5px;
+}
+
+#plan ul ul li::before {
+    content: url(../img/check_mark_no_circle.svg);
+    position: relative;
+    top: 7px;
+    right: 20px;
+}
+
+.price {
+    font-family: 'Rubik-medium';
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+#plan .button {
+    margin: 0 75px;
+    background-color: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    padding: 9px 63px;
+}
+
+.price_button {
+}
