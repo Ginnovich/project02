@@ -251,6 +251,7 @@ h2 {
 
 #plan {
     background: #FBFBFB;
+    padding-bottom: 151px;
 }
 
 #plan > div:first-child {
@@ -382,3 +383,267 @@ h3 {
  #plan .box input[type="radio"]:checked + label .button {
      background-color: red;
  }
+
+ #plan .box input[type="radio"]:checked + label .button a {
+     color: #ffffff;
+ }
+
+
+ /***** global *****/
+
+
+ #global {
+    background: #FBFBFB;
+ }
+
+#global div:first-child {
+    width: 555px;
+    margin: auto;
+    text-align: center;
+}
+
+ #global h2 {
+     margin: 0;
+ }
+
+ #global .map {
+     width: 1060px;
+     margin: auto;
+     padding-top: 156px;
+     position: relative;
+ }
+
+
+/***** global img *****/
+
+#global .map > div > img {
+    position: absolute;
+}
+  
+#circle_popup1 {
+    width: 2.5%;
+    bottom: 421px;
+    left: 32px;
+ }
+
+#circle_popup2 {
+    width: 3.5%;
+    bottom: 421px;
+    left: 114px;
+} 
+
+#circle_popup3 {
+    width: 3.5%;
+    bottom: 411px;
+    left: 190px;
+} 
+
+#circle_popup4 {
+    width: 5.5%;
+    bottom: 343px;
+    left: 150px;
+}
+
+#circle_popup5 {
+    width: 4%;
+    bottom: 366px;
+    left: 272px;
+}
+
+#circle_popup6 {
+    width: 3%;
+    bottom: 307px;
+    left: 238px;
+}
+
+#circle_popup7 {
+    width: 3%;
+    bottom: 273px;
+    left: 184px;
+}
+
+#circle_popup8 {
+    width: 3.5%;
+    bottom: 188px;
+    left: 274px;
+}
+
+#circle_popup9 {
+    width: 5%;
+    bottom: 124px;
+    left: 308px;
+}
+
+#circle_popup10 {
+    width: 2.5%;
+    bottom: 153px;
+    left: 365px;
+}
+
+#circle_popup11 {
+    width: 3.5%;
+    bottom: 64px;
+    left: 288px;
+}
+
+#circle_popup12 {
+    width: 2%;
+    bottom: 423px;
+    left: 357px;
+}
+
+#circle_popup13 {
+    width: 3.5%;
+    bottom: 478px;
+    left: 347px;
+}
+
+#circle_popup14 {
+    width: 3%;
+    bottom: 512px;
+    left: 265px;
+}
+
+#circle_popup15 {
+    width: 3%;
+    bottom: 494px;
+    left: 414px;
+}
+
+#circle_popup16 {
+    width: 3.5%;
+    bottom: 402px;
+    left: 512px;
+}
+
+#circle_popup17 {
+    width: 2%;
+    bottom: 445px;
+    left: 732px;
+}
+
+#circle_popup18 {
+    width: 4.5%;
+    bottom: 333px;
+    left: 551px;
+}
+
+#circle_popup19 {
+    width: 4.5%;
+    bottom: 380px;
+    left: 650px;
+}
+
+#circle_popup20 {
+    width: 3.5%;
+    bottom: 236px;
+    left: 470px;
+}
+
+#circle_popup21 {
+    width: 6%;
+    bottom: 201px;
+    left: 555px;
+}
+
+#circle_popup22 {
+    width: 5%;
+    bottom: 106px;
+    left: 551px;
+}
+
+#circle_popup23 {
+    width: 6%;
+    bottom: 347px;
+    left: 748px;
+}
+
+#circle_popup24 {
+    width: 5%;
+    bottom: 249px;
+    left: 708px;
+}
+
+#circle_popup25 {
+    width: 3%;
+    bottom: 419px;
+    left: 862px;
+}
+
+#circle_popup26 {
+    width: 4%;
+    bottom: 417px;
+    left: 985px;
+}
+
+#circle_popup27 {
+    width: 3%;
+    bottom: 294px;
+    left: 793px;
+}
+
+#circle_popup28 {
+    width: 3%;
+    bottom: 158px;
+    left: 808px;
+}
+
+#circle_popup29 {
+    width: 5.5%;
+    bottom: 78px;
+    left: 831px;
+}
+
+#circle_popup30 {
+    width: 3%;
+    bottom: 75px;
+    left: 914px;
+}
+
+#circle_popup1, #circle_popup2, #circle_popup3, #circle_popup4,
+#circle_popup5, #circle_popup6, #circle_popup7, #circle_popup8,
+#circle_popup9, #circle_popup10, #circle_popup11, #circle_popup12,
+#circle_popup13, #circle_popup14, #circle_popup15, #circle_popup16,
+#circle_popup17, #circle_popup18, #circle_popup19, #circle_popup20,
+#circle_popup21, #circle_popup22, #circle_popup23, #circle_popup24,
+#circle_popup25, #circle_popup26, #circle_popup27, #circle_popup28,
+#circle_popup29, #circle_popup30 {
+    opacity: 0.2;
+}
+
+#circle_popup1:hover, #circle_popup2:hover, #circle_popup3:hover, #circle_popup4:hover,
+#circle_popup5:hover, #circle_popup6:hover, #circle_popup7:hover, #circle_popup8:hover,
+#circle_popup9:hover, #circle_popup10:hover, #circle_popup11:hover, #circle_popup12:hover,
+#circle_popup13:hover, #circle_popup14:hover, #circle_popup15:hover, #circle_popup16:hover,
+#circle_popup17:hover, #circle_popup18:hover, #circle_popup19:hover, #circle_popup20:hover,
+#circle_popup21:hover, #circle_popup22:hover, #circle_popup23:hover, #circle_popup24:hover,
+#circle_popup25:hover, #circle_popup26:hover, #circle_popup27:hover, #circle_popup28:hover,
+#circle_popup29:hover, #circle_popup30:hover {
+    opacity: 1;
+    transition: all 150ms ease-in-out;
+}
+
+.sponsored {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+/***** recommendation *****/
+
+
+#recommendation {
+    background: #FBFBFB;
+}
+
+#recommendation h2 {
+    margin-top: 0;
+}
+
+.heading {
+    margin: auto;
+    width: 555px;
+    text-align: center;
+    padding-top: 49px;
+}
