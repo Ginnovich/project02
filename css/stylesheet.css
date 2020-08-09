@@ -125,6 +125,7 @@ h6 {
     display: inline-block;
     position: relative;
     margin-top: 51px;
+    text-decoration: none;
 }
 
 .button::before {
@@ -331,20 +332,19 @@ h3 {
     background-color: #FFFFFF;
     border: 2px solid #F53838;
     border-radius: 50px;
-    padding: 9px 63px;
+    padding: 13px 62px;
     position: relative;
+    color: #F53838;
+    text-decoration: none;
+    font-family: 'Rubik-bold';
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .price_button {
     padding-bottom: 47px;
 }
 
-#plan a {
-    text-decoration: none;
-    font-family: 'Rubik-bold';
-    font-size: 16px;
-    line-height: 19px;
-    color: #F53838;
 }
 
 #plan span {
@@ -373,21 +373,16 @@ h3 {
     flex-direction: column;  
  }
 
- #plan .box input[type="radio"]:checked + label,
- #recommendation li input[type="radio"]:checked + label {
+ #plan .box input[type="radio"]:checked + label {
     border: 2px solid #F53838;
  }
 
- #plan .box input[type="radio"],
- #recommendation li input[type="radio"] {
+ #plan .box input[type="radio"] {
      display: none;
  }
 
  #plan .box input[type="radio"]:checked + label .button {
-     background-color: red;
- }
-
- #plan .box input[type="radio"]:checked + label .button a {
+     background-color: #F53838;
      color: #ffffff;
  }
 
@@ -640,9 +635,6 @@ h3 {
 #recommendation li{
     list-style: none;
     margin-right: 50px;
-}
-
-#recommendation label {
     background: #FFFFFF;
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
@@ -653,6 +645,10 @@ h3 {
     flex-direction: column; 
     border-radius: 10px;
     padding: 29px;
+}
+
+#recommendation li:hover{
+    border: 2px solid #F53838;
 }
 
 .profile_panel {
