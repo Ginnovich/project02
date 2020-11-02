@@ -1,2 +1,2 @@
-https://reginautsika.github.io/Project02/
+https://reginautsika.github.io/project02/
 Only desktop version, min-width: 1400px
